@@ -1,0 +1,7 @@
+mct_segmentation_package/
+├── examples/
+│   └── run_segmentation_example.py  ← entry point
+│   └── Segmentation_Pipeline.py     ← creates instances of Measure and ExtractROIs
+├── mct_segmentation/
+│   ├── ExtractROI.py                ← contains ExtractROIs class
+│   ├── measures.py                  ← contains Measure class + Feret method
